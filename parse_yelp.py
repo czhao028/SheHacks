@@ -26,9 +26,11 @@ client = vision.ImageAnnotatorClient()
 stable_url = "https://www.yelp.com"
 yelp_api = "https://api.yelp.com/v3/businesses/search"
 
-gps_list = [(29.729933,-95.4168456), (38.903997,-77.0602108), (38.902286, -77.017414)]
-# iHop, Baked & Wired, a baked joint
+gps_list = [(38.9224714,-77.2223935), (38.902286, -77.017414), (29.731746, -95.417742)]
+# Baked & Wired, a baked joint, pepper twins
 
+def clean_string(string):
+    return "".join([c for c in string if c.isalpha() or c.isdigit() or c == ' ']).rstrip()
 
 
 for gps_coords in gps_list:
@@ -38,10 +40,10 @@ for gps_coords in gps_list:
     google_places = GooglePlaces(gmaps_api_key)
 
     lat_this, long_this = gps_coords
-    query_result1 = google_places.nearby_search(
-        lat_lng={'lat': lat_this, 'lng': long_this},
-        types=[types.TYPE_FOOD],
-        rankby='distance').places
+    # query_result1 = google_places.nearby_search(
+    #     lat_lng={'lat': lat_this, 'lng': long_this},
+    #     types=[types.TYPE_FOOD],
+    #     rankby='distance').places
     query_result2 = google_places.nearby_search(
         lat_lng={'lat': lat_this, 'lng': long_this},
         types=[types.TYPE_RESTAURANT],
@@ -51,11 +53,10 @@ for gps_coords in gps_list:
         types=[types.TYPE_CAFE],
         rankby='distance').places
 
-    lda = lambda x,y: math.sqrt(math.pow(x-lat_this, 2) + math.pow(y-long_this, 2))
-    query_result1.extend(query_result2)
-    query_result1.extend(query_result3)
-    all_sorted = sorted(query_result1, key=lambda x: lda(x["geometry"]["location"]["lat"],
-                                                                                                     x["geometry"]["location"]["lng"]))
+    lda = lambda x,y: math.sqrt(math.pow(float(x)-lat_this, 2) + math.pow(float(y)-long_this, 2))
+    #query_result1.extend(query_result2)
+    query_result2.extend(query_result3)
+    all_sorted = sorted(query_result2, key=lambda x: lda(x.geo_location["lat"],x.geo_location["lng"]))
     top_result = all_sorted[0]
     #if "Cushman" in top_result.name: top_result = query_result[1]
     business_name = top_result.name
@@ -66,21 +67,25 @@ for gps_coords in gps_list:
     business_link = requests.get(yelp_api,
                                  headers=yelp_headers, params={"latitude": top_result.geo_location["lat"], "longitude": top_result.geo_location["lng"],
                                                                "limit": 5,
-                                                               "sort_by": "distance"})
+                                                               "sort_by": "distance", "categories":"restaurants,food"})
     print(business_link.json())
     business_alias = ""
+    top_businesses = business_link.json()["businesses"]
     try:
-        for business in business_link.json()["businesses"]:
+        for business in top_businesses:
             print(business)
             if tokenizer.tokenize(business["name"]) == business_name_tokenized:
                 business_alias = business["alias"]
                 break
+
     except Exception as e:
         print(e)
         print("No restaurants nearby")
         continue
     else:
-        if len(business_alias) == 0: continue
+        if len(business_alias) == 0: #picks the top result from Yelp
+            business_alias = top_businesses[0]["alias"]
+            business_name = top_businesses[0]["name"]
 
     print(business_alias)
     r = requests.get("https://www.yelp.com/menu/" + business_alias)
@@ -106,7 +111,7 @@ for gps_coords in gps_list:
                                                                   "photo-box photo-box--interactive"})):
                     image_source = image_div.img["src"]
                     folder_path = './Pictures/'+business_name+'/'+str(formal_label) #path for all the images of a restaurant
-                    pathlib.Path(folder_path).mkdir(parents=True, exist_ok=True)
+                    pathlib.Path(clean_string(folder_path)).mkdir(parents=True, exist_ok=True)
                     image_file_path = folder_path+"/"+short_label+str(index)+".jpg"
                     urllib.request.urlretrieve(image_source, image_file_path)
                     with open(image_file_path, 'rb') as img: response = client.label_detection(img)
