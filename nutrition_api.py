@@ -3,7 +3,7 @@ import urllib.request
 import time
 
 app_id = "5e584e4b"
-api_key = "9cd34c5e59575759d076c31cb8ced90d"
+api_key = "9cd34c5e59575759d076c31cb8ced90d" # this is for the nutritionx api
 
 import firebase_admin
 from firebase_admin import credentials
@@ -25,8 +25,12 @@ def on_snapshot(doc_snapshot, changes, read_time):
     else:
         for change in changes:
             if change.type.name == 'ADDED' or  change.type.name == 'MODIFIED':
+                #image classification here: model not ready in time
                 print(u'New city: {}'.format(change.document.id))
                 print(u'Modified city: {}'.format(change.document.id))
+
+                #"gcsSource": { "inputUris": [ "gs://folder/document1.pdf" ]
+                #replace with the link to the image in the cloud
 
             elif change.type.name == 'REMOVED':
                 print(u'Removed city: {}'.format(change.document.id))
@@ -40,23 +44,13 @@ def on_snapshot(doc_snapshot, changes, read_time):
     #   "thumbnailUri": string,
     #   "contentUri": string,
     #
-    #   // Union field data can be only one of the following:
-    #   "imageBytes": string,
     #   "inputConfig": {
     #     object (InputConfig)
     #   }
     #   // End of list of possible types for union field data.
     # }
 #   },
-#   "textSnippet": {
-#     object (TextSnippet)
-#   },
-#   "document": {
-#     object (Document)
-#   },
-#   "row": {
-#     object (Row)
-#   }
+
 #   // End of list of possible types for union field payload.
 # }
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2e4bdb1-92b3-4450-8edc-a8d7811f876b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nutrition_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/gsheets_code/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/gsheets_code/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/gsheets_code/index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/gsheets_code/index.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/registrant_code/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/registrant_code/.idea/vcs.xml" afterDir="false" />
@@ -11,15 +10,9 @@
       <change beforePath="$PROJECT_DIR$/../GDC/registrant_code/package.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/writePersonCourse/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/writePersonCourse/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/writePersonCourse/index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/writePersonCourse/index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A Baked Joint Model Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/A Baked Joint Model Data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Founding Farmers Tysons Model Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Founding Farmers Tysons Model Data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pepper Twins Model Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Pepper Twins Model Data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/New Text Document.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse_yelp.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_yelp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nutrition_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/nutrition_api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parse_yelp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-677">
-              <caret line="69" column="119" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="69" selection-end-column="119" />
+            <state relative-caret-position="139">
+              <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -42,24 +35,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Founding Farmers Tysons Model Data.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="1023" selection-start-line="1023" selection-end-line="1023" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nutrition_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="153">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pepper Twins Model Data.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -85,11 +74,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>api_key</find>
-      <find>milky</find>
-      <find>noodle</find>
-      <find>benne</find>
-      <find>salon</find>
       <find>star</find>
       <find>a bake</find>
       <find>no</find>
@@ -114,13 +98,19 @@
       <find>formal_</find>
       <find>avocad</find>
       <find>campf</find>
+      <find>kettle corn</find>
+      <find>avocado</find>
+      <find>dry</find>
+      <find>,Mr. and Mrs. Smith</find>
       <find>yelp_headers</find>
+      <find>pepper twins chi</find>
     </findStrings>
     <replaceStrings>
       <replace>gmaps_api_key</replace>
       <replace>lat_this</replace>
       <replace>gs://shehacks-1578767594591-vcm/A Baked Joint/Biscuit Sammie/biscuit-sammie</replace>
       <replace>long_this</replace>
+      <replace>,Mr and Mrs Smith</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -131,18 +121,18 @@
       <list>
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/A Baked Joint Model Data.csv" />
-        <option value="$PROJECT_DIR$/Pepper Twins Model Data.csv" />
-        <option value="$PROJECT_DIR$/nutrition_api.py" />
         <option value="$PROJECT_DIR$/parse_yelp.py" />
         <option value="$PROJECT_DIR$/Founding Farmers Tysons Model Data.csv" />
+        <option value="$PROJECT_DIR$/Pepper Twins Model Data.csv" />
+        <option value="$PROJECT_DIR$/nutrition_api.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="178" />
-    <option name="y" value="-14" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="22" />
+    <option name="y" value="115" />
     <option name="width" value="1569" />
-    <option name="height" value="1032" />
+    <option name="height" value="1106" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -293,23 +283,23 @@
       <updated>1578773670167</updated>
       <workItem from="1578773671908" duration="7268000" />
       <workItem from="1578783168579" duration="16650000" />
-      <workItem from="1578802115492" duration="16591000" />
+      <workItem from="1578802115492" duration="19354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40509000" />
+    <option name="totallyTimeSpent" value="43272000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="15" y="77" width="1046" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14632174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18319838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30319148" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28217822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39184397" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,13 +451,6 @@
     <entry file="file://$PROJECT_DIR$/Corner Bakery Cafe Model Data.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pepper Twins Model Data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A Baked Joint Model Data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -492,30 +475,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nutrition_api.py">
+    <entry file="file://$PROJECT_DIR$/Founding Farmers Tysons Model Data.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="101">
+          <caret line="423" column="34" selection-start-line="423" selection-start-column="34" selection-end-line="423" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parse_yelp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-677">
-          <caret line="69" column="119" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="69" selection-end-column="119" />
+        <state relative-caret-position="139">
+          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Founding Farmers Tysons Model Data.csv">
+    <entry file="file://$PROJECT_DIR$/Pepper Twins Model Data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nutrition_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="1023" selection-start-line="1023" selection-end-line="1023" />
+        <state relative-caret-position="153">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
