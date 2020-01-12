@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2e4bdb1-92b3-4450-8edc-a8d7811f876b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/gsheets_code/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/gsheets_code/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/gsheets_code/index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/gsheets_code/index.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/registrant_code/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/registrant_code/.idea/vcs.xml" afterDir="false" />
@@ -10,220 +11,49 @@
       <change beforePath="$PROJECT_DIR$/../GDC/registrant_code/package.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/writePersonCourse/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/writePersonCourse/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/writePersonCourse/index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/writePersonCourse/index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Almond Butter/almond-butter0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Almond Butter/almond-butter1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Applewood Smoked Bacon/applewood-smoked-bacon0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Applewood Smoked Bacon/applewood-smoked-bacon1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/BLT/blt9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Biscuit Sammie/biscuit-sammie9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Butter &amp; Jam/butter-and-jam0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Butter &amp; Jam/butter-and-jam1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Cheddar Cheese/cheddar-cheese0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Cheddar Cheese/cheddar-cheese1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Cheddar Cheese/cheddar-cheese2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/NC Country Ham/nc-country-ham9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Oatmeal/oatmeal9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Prosciutto/prosciutto9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Savory Oatmeal/savory-oatmeal9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Smoked Salmon/smoked-salmon9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Yogurt-Granola Bowl/yogurt-granola-bowl0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Yogurt-Granola Bowl/yogurt-granola-bowl1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/a-baked-joint/Yogurt-Granola Bowl/yogurt-granola-bowl2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/12 oz. Latte Hot/12-oz-latte-hot0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/5 oz. Tallat Hot/5-oz-tallat-hot0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/8 oz. Matcha Latte Hot/8-oz-matcha-latte-hot0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/8 oz. Matcha Latte Hot/8-oz-matcha-latte-hot1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Almond Butter/almond-butter0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Almond Butter/almond-butter1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Applewood Smoked Bacon/applewood-smoked-bacon0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Applewood Smoked Bacon/applewood-smoked-bacon1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Butter &amp; Jam/butter-and-jam0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Butter &amp; Jam/butter-and-jam1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Cheddar Cheese/cheddar-cheese0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Cheddar Cheese/cheddar-cheese1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Cheddar Cheese/cheddar-cheese2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Country Ham/country-ham1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Country Ham/country-ham3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Country Ham/country-ham4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Grapefruit Juice/grapefruit-juice0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Grapefruit Juice/grapefruit-juice1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Grapefruit Juice/grapefruit-juice2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Grapefruit Juice/grapefruit-juice3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Hibiscus Mint Iced Tea/hibiscus-mint-iced-tea0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Iron Goddess of Mercy Tea/iron-goddess-of-mercy-tea1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Jasmine Green Tea/jasmine-green-tea1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Mango Green Tea/mango-green-tea1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Mayan Chai/mayan-chai0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Peppermint Tea/peppermint-tea0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Tomato/tomato8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Vanilla Cream/vanilla-cream0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Velvet Cacao Tea/velvet-cacao-tea0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/White Lavender Tea/white-lavender-tea0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Yogurt-Granola Bowl/yogurt-granola-bowl0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Yogurt-Granola Bowl/yogurt-granola-bowl1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Yogurt-Granola Bowl/yogurt-granola-bowl2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/parse_yelp.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_yelp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -237,10 +67,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parse_yelp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+            <state relative-caret-position="-651">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shehacks/Lib/site-packages/googleplaces/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="276" selection-start-line="276" selection-end-line="276" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -255,20 +106,38 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>api_key</find>
+      <find>milky</find>
+      <find>noodle</find>
+      <find>benne</find>
+      <find>salon</find>
+      <find>star</find>
+      <find>a bake</find>
+      <find>no</find>
+      <find>cafe</find>
+      <find>distance</find>
+      <find>FOOD</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>gmaps_api_key</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/parse_yelp.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="980" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="544" />
+    <option name="width" value="1386" />
     <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -311,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.parse_yelp">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="SheHacks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -356,9 +225,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SheHacks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\czhao\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.parse_yelp" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -373,24 +265,24 @@
       <option name="presentableId" value="Default" />
       <updated>1578773670167</updated>
       <workItem from="1578773671908" duration="7268000" />
-      <workItem from="1578783168579" duration="6683000" />
+      <workItem from="1578783168579" duration="15369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13951000" />
+    <option name="totallyTimeSpent" value="22637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="363" y="0" width="924" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.024252223" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.204388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39184397" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29316548" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3938849" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -414,9 +306,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/parse_yelp.py</url>
-          <line>60</line>
-          <option name="timeStamp" value="10" />
+          <line>68</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -425,14 +322,36 @@
         <watch expression="business_name" language="Python" />
         <watch expression="business_link.json()[&quot;businesses&quot;][0][&quot;alias&quot;]" language="Python" />
         <watch expression="str(response.label_annotations[0]).lower()" language="Python" />
+        <watch expression="query_result.places[0]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SheHacks$parse_yelp.coverage" NAME="parse_yelp Coverage Results" MODIFIED="1578790565652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SheHacks$parse_yelp.coverage" NAME="parse_yelp Coverage Results" MODIFIED="1578799686702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SheHacks$test.coverage" NAME="test Coverage Results" MODIFIED="1578792170711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>query_result.places[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>query_result.places[0].lat</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>query_result.places</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>query_result[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>str(response.label_annotations[0]).lower()</expression-string>
         <language-id>Python</language-id>
@@ -455,31 +374,6 @@
       </expression>
       <expression>
         <expression-string>business_link.json()[&quot;businesses&quot;][0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>business_link.json()[&quot;businesses&quot;]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>business_link.json()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>business_link.content</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>business_name</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>reverse_geocode_result[0].name</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -514,10 +408,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shehacks/Lib/site-packages/googleplaces/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="276" selection-start-line="276" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A Baked Joint Model Data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="81" lean-forward="true" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/parse_yelp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+        <state relative-caret-position="-651">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

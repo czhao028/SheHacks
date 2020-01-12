@@ -10,6 +10,7 @@ from google.cloud import vision
 import googlemaps
 from googleplaces import GooglePlaces, types, lang
 import os
+import shutil
 
 gmaps_api_key = "AIzaSyD0NjY0LahJtl_iHFVaXhY3tDqp85VefP4"
 yelp_api_key = "-98K6QF0oXTngBc9k0Viq4OQZvvOI7s38VB5HTjcWWW_7xZuvlzgpTBYyiDyVoWAZpJTUBzi_EzwywszUfxg1vv9zTrEtNiz6IN3Xt2tFvedSUgGNyVx8U2fj2IaXnYx"
@@ -21,22 +22,50 @@ client = vision.ImageAnnotatorClient()
 stable_url = "https://www.yelp.com"
 yelp_api = "https://api.yelp.com/v3/businesses/search"
 
-gps_list = [(38.9023134,-77.0171418), (40.7513889,-73.9885776), (40.7477778,-73.9872222), (29.7464937,-95.3811239)]
-#a baked joint, I'Milky, Cafe Bene, Harry's Restaurant
+gps_list = [(38.903997,-77.0602108), (40.7521754,-73.9911547), (38.902286, -77.017414)]
+# Baked & Wired, Best Bagel, a baked joint,
+
+
+
 for gps_coords in gps_list:
     gmaps = googlemaps.Client(key=gmaps_api_key)
-    reverse_geocode_result = gmaps.reverse_geocode(gps_coords)
-    place_id = reverse_geocode_result[0]["place_id"]
+    # reverse_geocode_result = gmaps.reverse_geocode(gps_coords)
+    # place_id = reverse_geocode_result[0]["place_id"]
     google_places = GooglePlaces(gmaps_api_key)
-    business_name = google_places.get_place(place_id).name
 
+    query_result = google_places.nearby_search(
+        lat_lng={'lat': gps_coords[0], 'lng': gps_coords[1]},
+        types=[types.TYPE_FOOD,types.TYPE_CAFE, types.TYPE_RESTAURANT,types.TYPE_BAKERY, types.TYPE_MEAL_DELIVERY, types.TYPE_MEAL_TAKEAWAY],
+        rankby='distance').places
+
+    top_result = query_result[0]
+    business_name = top_result.name
+    print("Business name: %s"%business_name)
+    print(gps_coords[0], gps_coords[1])
+    print({"latitude": top_result.geo_location["lat"], "longtitude": top_result.geo_location["lng"]})
     business_link = requests.get(yelp_api,
-                                 headers=yelp_headers, params={"latitude": gps_coords[0], "longtitude": gps_coords[1], "location": business_name, "limit": 1})
-    business_alias = business_link.json()["businesses"][0]["alias"]
-    r = requests.get("https://www.yelp.com/menu/" + business_alias)
-    soup = BeautifulSoup(r.content, features="html.parser")
+                                 headers=yelp_headers, params={"latitude": top_result.geo_location["lat"], "longitude": top_result.geo_location["lng"],
+                                                               "limit": 5,
+                                                               "sort_by": "distance"})
+    print(business_link.json())
+    try:
+        for business in business_link.json()["businesses"]:
+            print(business)
+            if business_name.lower() in business["name"].lower():
+                business_alias = business["alias"]
+                break
 
-    for line in soup.find_all('h4'):
+    except:
+        print("No restaurants nearby")
+        continue
+
+    print(business_alias)
+    r = requests.get("https://www.yelp.com/menu/" + business_alias)
+    if r.status_code != 200: continue
+    soup = BeautifulSoup(r.content, features="html.parser")
+    all_h4 = soup.find_all('h4')
+    if len(all_h4) == 0: continue
+    for line in all_h4:
         for l in line.children:
             if l.name == 'a': #for each of the menu item links
 
@@ -63,16 +92,27 @@ for gps_coords in gps_list:
                         labels = food_label[0]
                         score = float(re.findall("score:(.*)", labels)[0]) #turns string into float
                         if score <= 0.95: os.remove(image_file_path) #if it's less confident
-                    except:
+                    except: # couldn't find any food in the image
+                        os.remove(image_file_path)
                         print("No food found in photo" + image_file_path)
 
     #for folder in folder_path_containing_business_name
-    path, dirs, files = next(os.walk("./Pictures/"+business_name))
-    #file_count = len(files)
-    for dir in dirs:
-        print(dir)
-        break
-    break
+    base_path = "./Pictures/"+business_name # main business
+    bucket_base_path = "gs://shehacks-1578767594591-vcm/"
+    path, dirs, files = next(os.walk(base_path))
+    #bucket name = gs://shehacks-1578767594591-vcm/Restaurant/imagename.jpg
+    with open(business_name + " Model Data.csv", "w") as csv_file:
+        csv_writer = csv.writer(csv_file)
+        for dir in dirs: # all its foods
+            path2, dir2, files2 = next(os.walk(base_path+dir))
+            if len(files2) < 10:
+                shutil.rmtree(path2)
+                continue
+            for file in files2:
+                csv_writer.writerow([bucket_base_path + business_name + "/" + file, dir])
+
+
+
         #path, dirs, files = next(os.walk("./Pictures/" + business_name))
     #if the folder has less than 10 pictures, delete it
 
