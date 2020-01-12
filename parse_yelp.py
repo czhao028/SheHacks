@@ -7,13 +7,32 @@ import urllib.request
 import re
 import pathlib
 from google.cloud import vision
+import googlemaps
+from googleplaces import GooglePlaces, types, lang
+
+gmaps_api_key = "AIzaSyD0NjY0LahJtl_iHFVaXhY3tDqp85VefP4"
+yelp_api_key = "-98K6QF0oXTngBc9k0Viq4OQZvvOI7s38VB5HTjcWWW_7xZuvlzgpTBYyiDyVoWAZpJTUBzi_EzwywszUfxg1vv9zTrEtNiz6IN3Xt2tFvedSUgGNyVx8U2fj2IaXnYx"
+yelp_headers = {
+        'Authorization': 'Bearer %s' % yelp_api_key,
+    }
 
 client = vision.ImageAnnotatorClient()
 stable_url = "https://www.yelp.com"
-r = requests.get("https://www.yelp.com/menu/a-baked-joint-washington-9")
+yelp_api = "https://api.yelp.com/v3/businesses/search"
+
+gps_coords = (38.9023134,-77.0171418)
+gmaps = googlemaps.Client(key=gmaps_api_key)
+reverse_geocode_result = gmaps.reverse_geocode(gps_coords)
+place_id = reverse_geocode_result[0]["place_id"]
+google_places = GooglePlaces(gmaps_api_key)
+business_name = google_places.get_place(place_id).name
+
+business_link = requests.get(yelp_api,
+                             headers=yelp_headers, params={"latitude": gps_coords[0], "longtitude": gps_coords[1], "location": business_name, "limit": 1})
+business_alias = business_link.json()["businesses"][0]["alias"]
+r = requests.get("https://www.yelp.com/menu/" + business_link["alias"])
 soup = BeautifulSoup(r.content, features="html.parser")
 
-business_name = "a-baked-joint"
 for line in soup.find_all('h4'):
     for l in line.children:
         if l.name == 'a': #for each of the menu item links
