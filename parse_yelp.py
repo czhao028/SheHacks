@@ -11,7 +11,10 @@ import googlemaps
 from googleplaces import GooglePlaces, types, lang
 import os
 import shutil
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import RegexpTokenizer
+import math
+
+tokenizer = RegexpTokenizer(r'\w+')
 
 gmaps_api_key = "AIzaSyD0NjY0LahJtl_iHFVaXhY3tDqp85VefP4"
 yelp_api_key = "-98K6QF0oXTngBc9k0Viq4OQZvvOI7s38VB5HTjcWWW_7xZuvlzgpTBYyiDyVoWAZpJTUBzi_EzwywszUfxg1vv9zTrEtNiz6IN3Xt2tFvedSUgGNyVx8U2fj2IaXnYx"
@@ -23,8 +26,8 @@ client = vision.ImageAnnotatorClient()
 stable_url = "https://www.yelp.com"
 yelp_api = "https://api.yelp.com/v3/businesses/search"
 
-gps_list = [(38.9224714,-77.2223935), (38.903997,-77.0602108), (38.902286, -77.017414)]
-# Founding Farmers, Baked & Wired, a baked joint
+gps_list = [(29.729933,-95.4168456), (38.903997,-77.0602108), (38.902286, -77.017414)]
+# iHop, Baked & Wired, a baked joint
 
 
 
@@ -34,31 +37,50 @@ for gps_coords in gps_list:
     # place_id = reverse_geocode_result[0]["place_id"]
     google_places = GooglePlaces(gmaps_api_key)
 
-    query_result = google_places.nearby_search(
-        lat_lng={'lat': gps_coords[0], 'lng': gps_coords[1]},
-        types=[types.TYPE_FOOD, types.TYPE_RESTAURANT, types.TYPE_CAFE,types.TYPE_BAKERY, types.TYPE_MEAL_DELIVERY, types.TYPE_MEAL_TAKEAWAY],
+    lat_this, long_this = gps_coords
+    query_result1 = google_places.nearby_search(
+        lat_lng={'lat': lat_this, 'lng': long_this},
+        types=[types.TYPE_FOOD],
+        rankby='distance').places
+    query_result2 = google_places.nearby_search(
+        lat_lng={'lat': lat_this, 'lng': long_this},
+        types=[types.TYPE_RESTAURANT],
+        rankby='distance').places
+    query_result3 = google_places.nearby_search(
+        lat_lng={'lat': lat_this, 'lng': long_this},
+        types=[types.TYPE_CAFE],
         rankby='distance').places
 
-    top_result = query_result[0]
-    business_name = word_tokenize(top_result.name)
-    print("Business name: %s"%business_name)
-    print(gps_coords[0], gps_coords[1])
+    lda = lambda x,y: math.sqrt(math.pow(x-lat_this, 2) + math.pow(y-long_this, 2))
+    query_result1.extend(query_result2)
+    query_result1.extend(query_result3)
+    all_sorted = sorted(query_result1, key=lambda x: lda(x["geometry"]["location"]["lat"],
+                                                                                                     x["geometry"]["location"]["lng"]))
+    top_result = all_sorted[0]
+    #if "Cushman" in top_result.name: top_result = query_result[1]
+    business_name = top_result.name
+    business_name_tokenized = tokenizer.tokenize(top_result.name)
+    print("Business name: %s"%business_name_tokenized)
+    print(lat_this, long_this)
     print({"latitude": top_result.geo_location["lat"], "longtitude": top_result.geo_location["lng"]})
     business_link = requests.get(yelp_api,
                                  headers=yelp_headers, params={"latitude": top_result.geo_location["lat"], "longitude": top_result.geo_location["lng"],
                                                                "limit": 5,
                                                                "sort_by": "distance"})
     print(business_link.json())
+    business_alias = ""
     try:
         for business in business_link.json()["businesses"]:
             print(business)
-            if len(set(word_tokenize(business["name"])) - set(business_name)) > 0:
+            if tokenizer.tokenize(business["name"]) == business_name_tokenized:
                 business_alias = business["alias"]
                 break
-
-    except:
+    except Exception as e:
+        print(e)
         print("No restaurants nearby")
         continue
+    else:
+        if len(business_alias) == 0: continue
 
     print(business_alias)
     r = requests.get("https://www.yelp.com/menu/" + business_alias)

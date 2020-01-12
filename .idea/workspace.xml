@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2e4bdb1-92b3-4450-8edc-a8d7811f876b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SheHacks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parse_yelp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/gsheets_code/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/gsheets_code/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/gsheets_code/index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/gsheets_code/index.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/registrant_code/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/registrant_code/.idea/vcs.xml" afterDir="false" />
@@ -15,19 +10,8 @@
       <change beforePath="$PROJECT_DIR$/../GDC/registrant_code/package.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/writePersonCourse/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/writePersonCourse/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/writePersonCourse/index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/writePersonCourse/index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Baked Joint Model Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/A Baked Joint Model Data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Oatmeal/oatmeal12.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/parse_yelp.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_yelp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +25,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parse_yelp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-715">
-              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="36" />
+            <state relative-caret-position="61">
+              <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -93,9 +86,14 @@
       <find>cafe</find>
       <find>distance</find>
       <find>FOOD</find>
+      <find>a baked</find>
+      <find>formal_</find>
+      <find>gps_coords[1]</find>
     </findStrings>
     <replaceStrings>
       <replace>gmaps_api_key</replace>
+      <replace>lat_this</replace>
+      <replace>long_this</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -110,8 +108,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
-    <option name="y" value="37" />
+    <option name="x" value="375" />
+    <option name="y" value="69" />
     <option name="width" value="1566" />
     <option name="height" value="1032" />
   </component>
@@ -241,15 +239,15 @@
       <updated>1578773670167</updated>
       <workItem from="1578773671908" duration="7268000" />
       <workItem from="1578783168579" duration="16650000" />
-      <workItem from="1578802115492" duration="601000" />
+      <workItem from="1578802115492" duration="4983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24519000" />
+    <option name="totallyTimeSpent" value="28901000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="25" width="1044" height="688" extended-state="0" />
+    <frame x="250" y="46" width="1044" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18356998" />
@@ -257,8 +255,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29316548" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3938849" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33213645" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39317775" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -286,6 +284,11 @@
           <line>8</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parse_yelp.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -294,11 +297,13 @@
         <watch expression="business_link.json()[&quot;businesses&quot;][0][&quot;alias&quot;]" language="Python" />
         <watch expression="str(response.label_annotations[0]).lower()" language="Python" />
         <watch expression="query_result.places[0]" language="Python" />
+        <watch expression="query_result1.extend(query_result2)" language="Python" />
+        <watch expression="query_result1" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SheHacks$parse_yelp.coverage" NAME="parse_yelp Coverage Results" MODIFIED="1578800672252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SheHacks$parse_yelp.coverage" NAME="parse_yelp Coverage Results" MODIFIED="1578807211883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SheHacks$test.coverage" NAME="test Coverage Results" MODIFIED="1578792170711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
@@ -386,16 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parse_yelp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-715">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shehacks/Lib/site-packages/googleplaces/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4641">
@@ -409,6 +404,23 @@
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse_yelp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
