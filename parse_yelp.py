@@ -30,7 +30,7 @@ gps_list = [(38.9224714,-77.2223935), (38.902286, -77.017414), (29.731746, -95.4
 # Baked & Wired, a baked joint, pepper twins
 
 def clean_string(string):
-    return "".join([c for c in string if c.isalpha() or c.isdigit() or c == ' ']).rstrip()
+    return "".join([c for c in string if c.isalpha() or c.isdigit() or c == ' ' or c == '/']).rstrip()
 
 
 for gps_coords in gps_list:
@@ -110,8 +110,9 @@ for gps_coords in gps_list:
                             (soup_images.find_all("div", attrs={"class":
                                                                   "photo-box photo-box--interactive"})):
                     image_source = image_div.img["src"]
-                    folder_path = './Pictures/'+business_name+'/'+str(formal_label) #path for all the images of a restaurant
-                    pathlib.Path(clean_string(folder_path)).mkdir(parents=True, exist_ok=True)
+                    folder_path = clean_string('Pictures/'+business_name+'/'+str(formal_label))#path for all the images of a restaurant
+                    print(folder_path)
+                    pathlib.Path(folder_path).mkdir(parents=True, exist_ok=True)
                     image_file_path = folder_path+"/"+short_label+str(index)+".jpg"
                     urllib.request.urlretrieve(image_source, image_file_path)
                     with open(image_file_path, 'rb') as img: response = client.label_detection(img)
@@ -138,7 +139,8 @@ for gps_coords in gps_list:
                 shutil.rmtree(path2)
                 continue
             for file in files2:
-                csv_writer.writerow([bucket_base_path + business_name + "/" + file, dir])
+                csv_writer.writerow([path2.replace("./Pictures/", bucket_base_path) + "/" + file, dir[:31]])
+                #labels are max 32 characters
 
 
         #path, dirs, files = next(os.walk("./Pictures/" + business_name))
