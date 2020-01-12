@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2e4bdb1-92b3-4450-8edc-a8d7811f876b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/SheHacks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parse_yelp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/gsheets_code/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/gsheets_code/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/gsheets_code/index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/gsheets_code/index.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/registrant_code/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/registrant_code/.idea/vcs.xml" afterDir="false" />
@@ -12,48 +16,18 @@
       <change beforePath="$PROJECT_DIR$/../GDC/writePersonCourse/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/writePersonCourse/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GDC/writePersonCourse/index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../GDC/writePersonCourse/index.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/12 oz. Latte Hot/12-oz-latte-hot0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/5 oz. Tallat Hot/5-oz-tallat-hot0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/8 oz. Matcha Latte Hot/8-oz-matcha-latte-hot0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/8 oz. Matcha Latte Hot/8-oz-matcha-latte-hot1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Almond Butter/almond-butter0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Almond Butter/almond-butter1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Applewood Smoked Bacon/applewood-smoked-bacon0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Applewood Smoked Bacon/applewood-smoked-bacon1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Butter &amp; Jam/butter-and-jam0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Butter &amp; Jam/butter-and-jam1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Cheddar Cheese/cheddar-cheese0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Cheddar Cheese/cheddar-cheese1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Cheddar Cheese/cheddar-cheese2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Country Ham/country-ham1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Country Ham/country-ham3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Country Ham/country-ham4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Grapefruit Juice/grapefruit-juice0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Grapefruit Juice/grapefruit-juice1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Grapefruit Juice/grapefruit-juice2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Grapefruit Juice/grapefruit-juice3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Hibiscus Mint Iced Tea/hibiscus-mint-iced-tea0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Iron Goddess of Mercy Tea/iron-goddess-of-mercy-tea1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Jasmine Green Tea/jasmine-green-tea1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Mango Green Tea/mango-green-tea1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Mayan Chai/mayan-chai0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter &amp; Maldon Salt/nutella-butter-and-maldon-salt4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Nutella, Butter, Bananas &amp; Maldon Salt/nutella-butter-bananas-and-maldon-salt4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Peppermint Tea/peppermint-tea0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Tomato/tomato8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Vanilla Cream/vanilla-cream0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Velvet Cacao Tea/velvet-cacao-tea0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/White Lavender Tea/white-lavender-tea0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Yogurt-Granola Bowl/yogurt-granola-bowl0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Yogurt-Granola Bowl/yogurt-granola-bowl1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/A Baked Joint/Yogurt-Granola Bowl/yogurt-granola-bowl2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/7943 Tysons Corner Center/Macarons/macarons9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/parse_yelp.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_yelp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parse_yelp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-651">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="-715">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="36" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -79,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shehacks/Lib/site-packages/googleplaces/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
+            <state relative-caret-position="4641">
               <caret line="276" selection-start-line="276" selection-end-line="276" />
             </state>
           </provider>
@@ -88,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="136">
               <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -136,9 +110,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="544" />
-    <option name="width" value="1386" />
-    <option name="height" value="1031" />
+    <option name="x" value="112" />
+    <option name="y" value="37" />
+    <option name="width" value="1566" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -146,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,7 +133,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,18 +240,19 @@
       <option name="presentableId" value="Default" />
       <updated>1578773670167</updated>
       <workItem from="1578773671908" duration="7268000" />
-      <workItem from="1578783168579" duration="15369000" />
+      <workItem from="1578783168579" duration="16650000" />
+      <workItem from="1578802115492" duration="601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22637000" />
+    <option name="totallyTimeSpent" value="24519000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="363" y="0" width="924" height="687" extended-state="0" />
+    <frame x="75" y="25" width="1044" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.204388" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18356998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -310,11 +286,6 @@
           <line>8</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parse_yelp.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -327,7 +298,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SheHacks$parse_yelp.coverage" NAME="parse_yelp Coverage Results" MODIFIED="1578799686702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SheHacks$parse_yelp.coverage" NAME="parse_yelp Coverage Results" MODIFIED="1578800672252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SheHacks$test.coverage" NAME="test Coverage Results" MODIFIED="1578792170711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
@@ -408,23 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shehacks/Lib/site-packages/googleplaces/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="276" selection-start-line="276" selection-end-line="276" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A Baked Joint Model Data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -434,10 +388,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parse_yelp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-651">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="-715">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="36" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shehacks/Lib/site-packages/googleplaces/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4641">
+          <caret line="276" selection-start-line="276" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

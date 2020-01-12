@@ -11,6 +11,7 @@ import googlemaps
 from googleplaces import GooglePlaces, types, lang
 import os
 import shutil
+from nltk.tokenize import word_tokenize
 
 gmaps_api_key = "AIzaSyD0NjY0LahJtl_iHFVaXhY3tDqp85VefP4"
 yelp_api_key = "-98K6QF0oXTngBc9k0Viq4OQZvvOI7s38VB5HTjcWWW_7xZuvlzgpTBYyiDyVoWAZpJTUBzi_EzwywszUfxg1vv9zTrEtNiz6IN3Xt2tFvedSUgGNyVx8U2fj2IaXnYx"
@@ -22,8 +23,8 @@ client = vision.ImageAnnotatorClient()
 stable_url = "https://www.yelp.com"
 yelp_api = "https://api.yelp.com/v3/businesses/search"
 
-gps_list = [(38.903997,-77.0602108), (40.7521754,-73.9911547), (38.902286, -77.017414)]
-# Baked & Wired, Best Bagel, a baked joint,
+gps_list = [(38.9224714,-77.2223935), (38.903997,-77.0602108), (38.902286, -77.017414)]
+# Founding Farmers, Baked & Wired, a baked joint
 
 
 
@@ -35,11 +36,11 @@ for gps_coords in gps_list:
 
     query_result = google_places.nearby_search(
         lat_lng={'lat': gps_coords[0], 'lng': gps_coords[1]},
-        types=[types.TYPE_FOOD,types.TYPE_CAFE, types.TYPE_RESTAURANT,types.TYPE_BAKERY, types.TYPE_MEAL_DELIVERY, types.TYPE_MEAL_TAKEAWAY],
+        types=[types.TYPE_FOOD, types.TYPE_RESTAURANT, types.TYPE_CAFE,types.TYPE_BAKERY, types.TYPE_MEAL_DELIVERY, types.TYPE_MEAL_TAKEAWAY],
         rankby='distance').places
 
     top_result = query_result[0]
-    business_name = top_result.name
+    business_name = word_tokenize(top_result.name)
     print("Business name: %s"%business_name)
     print(gps_coords[0], gps_coords[1])
     print({"latitude": top_result.geo_location["lat"], "longtitude": top_result.geo_location["lng"]})
@@ -51,7 +52,7 @@ for gps_coords in gps_list:
     try:
         for business in business_link.json()["businesses"]:
             print(business)
-            if business_name.lower() in business["name"].lower():
+            if len(set(word_tokenize(business["name"])) - set(business_name)) > 0:
                 business_alias = business["alias"]
                 break
 
@@ -97,20 +98,20 @@ for gps_coords in gps_list:
                         print("No food found in photo" + image_file_path)
 
     #for folder in folder_path_containing_business_name
-    base_path = "./Pictures/"+business_name # main business
+    base_path = "./Pictures/"+business_name + "/" # main business
     bucket_base_path = "gs://shehacks-1578767594591-vcm/"
     path, dirs, files = next(os.walk(base_path))
     #bucket name = gs://shehacks-1578767594591-vcm/Restaurant/imagename.jpg
     with open(business_name + " Model Data.csv", "w") as csv_file:
         csv_writer = csv.writer(csv_file)
         for dir in dirs: # all its foods
+            print(base_path+dir)
             path2, dir2, files2 = next(os.walk(base_path+dir))
-            if len(files2) < 10:
+            if len(files2) < 5:
                 shutil.rmtree(path2)
                 continue
             for file in files2:
                 csv_writer.writerow([bucket_base_path + business_name + "/" + file, dir])
-
 
 
         #path, dirs, files = next(os.walk("./Pictures/" + business_name))
